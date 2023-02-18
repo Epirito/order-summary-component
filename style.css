@@ -1,0 +1,102 @@
+
+@font-face {
+    font-family: "Red Hat Display";
+    src: url("RedHatDisplay-VariableFont_wght.ttf");
+}
+
+body, html {
+    margin: 0px;
+    height: 100%
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+
+.order-item {
+    padding: 10px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align:left;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    line-height: 1;
+}
+.order-item_content {
+    flex-grow: 1;
+}
+
+.order-item, .order-item * {
+    margin: 5px;
+}
+
+.card__img, .card {
+    max-width: 380px;
+    width: 80vw;
+}
+
+.card__img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: 0px 20px 30px -10px hsla(220, 15%, 55%, .4);
+    background-color: white;
+}
+.card_content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.card__main-button, .card__button {
+    border: none;
+    border-radius: 10px;
+    
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.card__main-button {
+    padding: 10px;   
+    color: white;
+    background-color:  hsl(245, 75%, 52%);
+    box-shadow: 0px 20px 20px -5px hsla(223, 47%, 23%, 0.2);
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card__main-button:hover {
+    background-color: hsl(245, 100%, 50%);
+    box-shadow: 0px 15px 20px -5px hsla(223, 47%, 23%, 0.15);
+}
+
+.card__button {
+    color: hsl(224, 23%, 55%);
+    background-color: rgba(0, 0, 0, 0);
+    transition: color 0.2s ease-in-out;
+}
+.card__button:hover {
+    color: hsl(224, 40%, 70%);
+}
+
+.attribution {
+    margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+}
