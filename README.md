@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](https://user-images.githubusercontent.com/96730122/219858124-f65dfa97-c953-4f5e-bde6-66868b32e105.jpeg)
 
 ### Links
 
 - Solution URL: [Source Code](https://github.com/Epirito/order-summary-component)
-- Live Site URL: [Live Demo]()
+- Live Site URL: [Live Demo](https://epirito.github.io/order-summary-component/)
